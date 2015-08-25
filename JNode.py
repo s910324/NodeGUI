@@ -14,26 +14,29 @@ from   ErrorClass    import *
 class JNode(QGraphicsItem):
 	def __init__(self, scene, lineCalc, lineDecorator, parent,  x , y, w , h, name = None):
 		QGraphicsItem.__init__(self, parent)
+		
 		self.Pcount         = 0
 		self.Scount         = 0
 		self.scene          = scene
 		self.lineCalc       = lineCalc
 		self.lineDecorator  = lineDecorator
 
-		self.Ring           = Ring(self.scene, x = x, y = y)
+		# self.Ring           = Ring(self.scene, x = x, y = y)
 		self.nameTag        = TextNode(self.scene, text = name, x= x-18, y= y+70)
 		self.nameTag.changeText(name)
 		self.scene.addItem(self.nameTag)
-		self.scene.addItem(self.Ring)
+		# self.scene.addItem(self.Ring)
 
 		self.name       = name
 		self.parent     = parent
+		self.status     = 0
+		self.temp_stat  = 0
 		self.host       = []
 		self.client     = []
 		self.child      = []
 		self.jack       = []
 		self.drain      = []
-		self.parts      = [self.Ring, self.nameTag]
+		self.parts      = [self.nameTag]  #self.Ring,
 		self.level      = None
 
 		self.script     = None
@@ -42,6 +45,7 @@ class JNode(QGraphicsItem):
 
 		self.contentPos = QPoint(x,y) #self.scenePos()
 		self.setFlag(QGraphicsItem.ItemIsMovable)
+		self.setAcceptHoverEvents(True)
 		self.setLevel(-1)
 
 		#width and height of content (img, text) without the arrows
@@ -77,10 +81,10 @@ class JNode(QGraphicsItem):
 		return self.level
 
 	def setStatus(self, status):
-		self.Ring.setStatus(status)
+		self.status = status
 
 	def getStatus(self):
-		return self.Ring.getStatus
+		return self.status
 
 	def addChild(self, node):
 		self.child.append(node)
@@ -93,7 +97,7 @@ class JNode(QGraphicsItem):
 		return self.host
 
 	def removeHost(self, hostJack):
-		self.setStatus(6)
+		self.setStatus(0)
 		if hostJack in self.host:
 			self.host.remove(hostJack)
 
@@ -109,7 +113,7 @@ class JNode(QGraphicsItem):
 					# not connected,use function defaults
 					self.parameters.append(self.script.func_defaults[self.jack.index(plug)])
 				elif (plug.parent.getHost().output) is TypeError:
-					self.setStatus(0)
+					self.setStatus(3)
 					raise TypeError
 				else:
 
@@ -221,7 +225,17 @@ class JNode(QGraphicsItem):
 			if w.lineRect is not None:
 				boundingRect = boundingRect.united(w.lineRect)
 		return boundingRect   
-	
+	def hoverEnterEvent (self, event):
+		event.accept()	
+		self.temp_stat = self.status
+		self.status = 1
+		self.update()
+
+	def hoverLeaveEvent (self, event):
+		event.accept()	
+		self.status = self.temp_stat
+		self.update()		
+
 	def mousePressEvent(self, event):
 		# do not react on events on arrows
 		rect = self.contentSceneRect()

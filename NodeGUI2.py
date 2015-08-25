@@ -1,12 +1,13 @@
 
 import sys
 import os
+import plotSubWin    as qtplt
 from   PySide.QtCore import *
 from   PySide.QtGui  import *
 from   PysideGraph   import *
 from   HoverScene    import *
 import numpy as np
-import plotSubWin    as qtplt
+
 
 
 
@@ -61,14 +62,17 @@ class MainWindow(QMainWindow):
 		self.runScriptAction.triggered.connect(self.runScript)
 
 	def initDocker(self):
-		self.plotWindow  = qtplt.MainWindow()
+		# self.plotWindow  = qtplt.MainWindow()
 
 		self.plotDock        = QDockWidget("Plot View", self)
-		self.propertyDock    = QDockWidget("property", self)
+		self.propertyDock    = QDockWidget("property",  self)
+
 		self.plotDock.setMinimumSize(300,300)
 		self.propertyDock.setMinimumSize(300,100)
+
 		self.plotDock.setAllowedAreas(Qt.LeftDockWidgetArea | Qt.RightDockWidgetArea)
 		self.propertyDock.setAllowedAreas(Qt.LeftDockWidgetArea | Qt.RightDockWidgetArea)
+		
 		self.addDockWidget(Qt.RightDockWidgetArea, self.plotDock)
 		self.addDockWidget(Qt.RightDockWidgetArea, self.propertyDock)
 

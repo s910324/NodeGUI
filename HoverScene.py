@@ -12,7 +12,7 @@ class DiagramScene(QGraphicsScene):
 		runSequence = []
 		for JNode in self.JNodes:
 			# which node is not root node, which should initiallize it parameters
-			JNode.setStatus(6)
+			JNode.setStatus(0)
 			if JNode.getHost() == []:
 				runSequence.append(JNode)
 			else:

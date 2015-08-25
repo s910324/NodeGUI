@@ -1,20 +1,13 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
+
 import sys
-import PySide
-from PySide.QtCore import *
-from PySide.QtGui  import *
-from pyqtgraph.Qt import QtGui, QtCore
-import pyqtgraph as pg
-import numpy as np
-from types import *
+import numpy         as np
+import pyqtgraph     as pg
+from   pyqtgraph.Qt  import  QtCore
+from   types         import *
+from   PySide.QtCore import *
+from   PySide.QtGui  import *
 
-# from QtVariant import QtGui, QtCore
-# from PyQt4.QtCore import *
-# from PyQt4.QtGui  import *
 
-#from scipy.stats import futil
-#from scipy.sparse.csgraph import _validation
 
 
 class MainWindow(QMainWindow):
@@ -135,9 +128,9 @@ class CustomViewBox(pg.ViewBox):
 			pg.ViewBox.mouseDragEvent(self, ev)   
 
 
-# if __name__ == '__main__':
-# 	app = QApplication(sys.argv)
-# 	frame = MainWindow()
-# 	frame.show()    
-# 	app.exec_()
-# 	sys.exit
+if __name__ == '__main__':
+	app = QApplication(sys.argv)
+	frame = MainWindow()
+	frame.show()    
+	app.exec_()
+	sys.exit
