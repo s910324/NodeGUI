@@ -13,10 +13,14 @@ class JackNode(JNode):
 		scene.addItem(self.nameTag)
 		scene.JNodes.append(self)
 		self.Pen = [QPen(QColor('#0A0A0A'), 1, Qt.SolidLine),  #normal  state
-					QPen(QColor('#5A5A5A'), 1, Qt.SolidLine),    #hovered state
+					QPen(QColor('#3B3B3B'), 1, Qt.SolidLine),  #hovered state
 					QPen(QColor('#0AFA0A'), 1, Qt.DashLine),   #ready to connect
 					QPen(QColor('#FF0A0A'), 2, Qt.SolidLine)]  #error   state
-
+					
+		self.Brush = [QColor(28, 28, 28, 200),
+					  QColor(20, 20, 20, 255),
+					  QColor(28, 28, 28, 200),
+					  QColor(28, 28, 28, 200)]
 
 		# if img is not None and (img.width() != self.w or img.height() != self.h):
 		#     self.img = img.scaled(self.w, self.h)
@@ -26,9 +30,10 @@ class JackNode(JNode):
 	def paint(self, painter, option, widget):
 		painter.setRenderHint(QPainter.Antialiasing)    	
 		painter.setPen(self.Pen[self.status])
-		painter.setBrush(QColor(28, 28, 28, 200))
 
-		painter.drawRoundedRect(self.contentRect(), 8, 8, mode=Qt.AbsoluteSize)
+		painter.setBrush(self.Brush[self.status])
+
+		painter.drawRoundedRect(self.contentRect(), 0, 0, mode=Qt.AbsoluteSize)
 		# if self.img    is not None:
 		#     with self.bitmap_lock:
 		#         painter.drawImage(self.contentRect(), self.img) 

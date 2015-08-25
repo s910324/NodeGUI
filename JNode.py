@@ -160,7 +160,7 @@ class JNode(QGraphicsItem):
 			self.setLevel(0)
 		for i in xrange(count):
 			self.Pcount += 1
-			plug = PlugNode(self.scene, self.lineCalc, self.lineDecorator, x= self.x - 20, y= self.y-5+ (15) * self.Pcount, name = name)
+			plug = PlugNode(self.scene, self.lineCalc, self.lineDecorator, x= self.x +5, y= self.y + 20 + (15) * self.Pcount, name = name)
 			plug.setName(name)
 			plug.setHost(self)
 			self.jack.append(plug)
