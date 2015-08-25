@@ -1,22 +1,18 @@
 
 import sys
-import numpy         as np
-import pyqtgraph     as pg
-from   pyqtgraph.Qt  import  QtCore
-from   types         import *
 from   PySide.QtCore import *
 from   PySide.QtGui  import *
+import pyqtgraph     as pg
+import numpy         as np
+from   types         import *
 
-
-
-
-class MainWindow(QMainWindow):
+class PlotWindow(QMainWindow):
 	def __init__(self, parent=None):
-		super(MainWindow, self).__init__(parent)
+		super(PlotWindow, self).__init__(parent)
 		self.mainWindow = QMainWindow()
 		self.resize(1000,800)
 		self.plotCounter = 0
-#        self.initSettingDocker()
+		# self.initSettingDocker()
 		self.initSettingToolbar()
 		self.initPlotArea()
 		self.plotLineHolder = []
@@ -28,8 +24,8 @@ class MainWindow(QMainWindow):
 
 		selectAction    = QAction('Select area', self)
 		crosshairAction = QAction('Enable CrossHair', self)
-		addHLineAction = QAction('Insert Horizontal Line', self)
-		addVLineAction = QAction('Insert Verticle Line', self)
+		addHLineAction  = QAction('Insert Horizontal Line', self)
+		addVLineAction  = QAction('Insert Verticle Line', self)
 		
 		self.graphBar.addAction(selectAction)
 		self.graphBar.addAction(crosshairAction)
@@ -63,7 +59,7 @@ class MainWindow(QMainWindow):
 		
 
 	def insertPlot(self, xAry = None, yAry = None, plotArea = None, legend = None, plotName = None, 
-				lineColor = (0,0,0,255), lineWidth = 2, lineStyle = QtCore.Qt.SolidLine, 
+				lineColor = (0,0,0,255), lineWidth = 2, lineStyle = Qt.SolidLine, 
 				dotColor  = (0,0,0,255), dotSize   = 6,  dotSym = 0    ):
 			Sym = [ 'o', 's', 't', 'd', '+' ]
 			if plotName == None:
@@ -118,19 +114,19 @@ class CustomViewBox(pg.ViewBox):
 		self.setMouseMode(self.RectMode)
 
 	def mouseClickEvent(self, ev):
-		if ev.button() == QtCore.Qt.RightButton:
+		if ev.button() == Qt.RightButton:
 			self.autoRange()
 			
 	def mouseDragEvent(self, ev):
-		if ev.button() == QtCore.Qt.RightButton:
+		if ev.button() == Qt.RightButton:
 			ev.ignore()
 		else:
 			pg.ViewBox.mouseDragEvent(self, ev)   
 
 
 if __name__ == '__main__':
-	app = QApplication(sys.argv)
-	frame = MainWindow()
+	app   = QApplication(sys.argv)
+	frame = PlotWindow()
 	frame.show()    
 	app.exec_()
 	sys.exit

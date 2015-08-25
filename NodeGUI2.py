@@ -1,11 +1,10 @@
 
 import sys
-import os
-import plotSubWin    as qtplt
 from   PySide.QtCore import *
 from   PySide.QtGui  import *
 from   PysideGraph   import *
 from   HoverScene    import *
+import plotSubWin    as qtplt
 import numpy as np
 
 
@@ -18,7 +17,7 @@ class MainWindow(QMainWindow):
 		self.initDocker()
 		self.view  = QGraphicsView()
 		self.scene = DiagramScene()
-
+		
 		self.scene.setSceneRect(0,0,800,600)
 		self.setCentralWidget(self.view)
 		#Select node connection and its decorator types
@@ -62,7 +61,7 @@ class MainWindow(QMainWindow):
 		self.runScriptAction.triggered.connect(self.runScript)
 
 	def initDocker(self):
-		# self.plotWindow  = qtplt.MainWindow()
+
 
 		self.plotDock        = QDockWidget("Plot View", self)
 		self.propertyDock    = QDockWidget("property",  self)
@@ -77,8 +76,9 @@ class MainWindow(QMainWindow):
 		self.addDockWidget(Qt.RightDockWidgetArea, self.propertyDock)
 
 	def plot(self, data1 = [], data2 = []):
+
 		datas      = [data1, data2]
-		plotWindow = qtplt.MainWindow()
+		plotWindow = qtplt.PlotWindow()
 		p,l        = plotWindow.addPlotArea('graphtitle')
 		colorMap   = [(10,10,10,255),    (255,0,0,255),   (0,0,255,255),  (20,200,0,255),
 					  (255,0,115,255),   (190,150,0,255), (10,0,175,255), (140,67,10,255),
@@ -89,7 +89,11 @@ class MainWindow(QMainWindow):
 				[X, Y] = data
 				plotWindow.insertPlot(X, Y, plotArea = p, legend = l, lineColor = colorMap[1], dotColor = colorMap[0])
 				plotWindow.finitPlotArea(plotArea = p, legend = l)
+
+		
+
 		self.plotDock.setWidget(plotWindow)
+		plotWindow.showMaximized()
 		return 0   
 
 	def differential(self, array=[[],[]]):

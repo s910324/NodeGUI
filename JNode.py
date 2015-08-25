@@ -20,12 +20,9 @@ class JNode(QGraphicsItem):
 		self.scene          = scene
 		self.lineCalc       = lineCalc
 		self.lineDecorator  = lineDecorator
-
-		# self.Ring           = Ring(self.scene, x = x, y = y)
-		self.nameTag        = TextNode(self.scene, text = name, x= x-18, y= y+70)
+		self.nameTag        = TextNode(self.scene, text = name, x= x+10, y= y+5)
 		self.nameTag.changeText(name)
-		self.scene.addItem(self.nameTag)
-		# self.scene.addItem(self.Ring)
+		
 
 		self.name       = name
 		self.parent     = parent

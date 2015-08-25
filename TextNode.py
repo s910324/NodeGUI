@@ -15,7 +15,7 @@ class TextNode(TNode):
 		
 	def paint(self, painter, option, widget):
 		painter.setFont(QFont('Decorative', 10, QFont.Bold))
-		painter.drawText(self.contentRect(), Qt.AlignCenter, self.text)
+		painter.drawText(self.contentRect(), Qt.AlignLeft, self.text)
 
 	def mousePressEvent(self, event):
 		event.ignore() 
