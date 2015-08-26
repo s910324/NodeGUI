@@ -3,6 +3,7 @@ from __future__ import unicode_literals
 import math
 from   types         import *
 from   PlugNode      import *
+from   TextNode      import *
 from   LineCalc      import *
 from   LineDecorator import *
 from   PySide.QtCore import *
@@ -14,15 +15,18 @@ class SNode(QGraphicsItem):
 		
 		self.lineCalc      = lineCalc
 		self.lineDecorator = lineDecorator
+		self.nameTag = TextNode(self.scene, text = name, x = x-105, y= y-3)
 		self.name    = name
 		self.parent  = parent
 		self.host    = None
 		self.scene   = scene
 		self.child   = []
 
+
 		#in screen coords
 		self.contentPos = QPoint(x,y) #self.scenePos()
 		self.setFlag(QGraphicsItem.ItemIsMovable)
+		self.setAcceptHoverEvents(True)
 			   
 		#width and height of content (img, text) without the arrows
 		self.w = w
@@ -40,13 +44,17 @@ class SNode(QGraphicsItem):
 		return self.name
 
 	def setName(self, name):
-		self.name = name
+		self.name    = name
+		self.nameTag.changeText(name, size = 8, bold = False, align = 'right')
 	
 	def setParent(self, parent):
-		self.parent = parent
+		self.parent  = parent
 
 	def setHost(self, host):
-		self.host = host
+		self.host    = host
+		if self.nameTag not in self.host.parts:
+			self.scene.addItem(self.nameTag)
+			self.host.parts.append(self.nameTag)
 
 	def getHost(self):
 		return self.host

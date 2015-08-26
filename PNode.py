@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 import math
 from   types         import *
+from   TextNode      import *
 from   LineCalc      import *
 from   LineDecorator import *
 from   PySide.QtCore import *
@@ -13,9 +14,11 @@ class PNode(QGraphicsItem):
 		
 		self.lineCalc      = lineCalc
 		self.lineDecorator = lineDecorator
+		self.nameTag = TextNode(self.scene, text = name, x = x+10, y= y-3)
 		self.name    = name
 		self.parent  = parent
 		self.host    = None
+		self.scene   = scene
 		self.child   = []
 		self.level   = 0
 
@@ -41,12 +44,16 @@ class PNode(QGraphicsItem):
 
 	def setName(self, name):
 		self.name = name
-	
+		self.nameTag.changeText(name, size = 8, bold = False)
+
 	def setParent(self, parent):
 		self.parent = parent
 
 	def setHost(self, host):
 		self.host = host
+		if self.nameTag not in self.host.parts:
+			self.scene.addItem(self.nameTag)
+			self.host.parts.append(self.nameTag)
 
 	def getHost(self):
 		return self.host

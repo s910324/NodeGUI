@@ -18,7 +18,7 @@ class MainWindow(QMainWindow):
 		self.view  = QGraphicsView()
 		self.scene = DiagramScene()
 		
-		self.scene.setSceneRect(0,0,800,600)
+		self.scene.setSceneRect(0,0,1920,1920)
 		self.setCentralWidget(self.view)
 		#Select node connection and its decorator types
 		self.nc = CenterCalc()
@@ -42,7 +42,7 @@ class MainWindow(QMainWindow):
 
 		norm2 = JackNode(self.scene, self.nc, self.cd,  x =400, y =200, name = 'normalize')
 		norm2.addPlug()		
-		norm2.addSource()
+		norm2.addSource(name = '2234')
 		norm2.setScript(self.Normalize)
 
 		self.view.setScene(self.scene)
@@ -133,6 +133,7 @@ app = QApplication(sys.argv)
 # MainWindow = listItem()
 MainWindow = MainWindow()
 MainWindow.show()
+
 def load_stylesheet(pyside=True):
 	f = QFile("./style.qss")
 	if not f.exists():

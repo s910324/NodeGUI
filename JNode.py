@@ -169,7 +169,7 @@ class JNode(QGraphicsItem):
 	def addSource(self, count = 1, name = "None"):
 		for i in xrange(count):
 			self.Scount += 1
-			source = SourceNode(self.scene, self.lineCalc, self.lineDecorator, x= self.x + 50, y= self.y+60 - (15) * self.Scount, name = name)
+			source = SourceNode(self.scene, self.lineCalc, self.lineDecorator, x= self.x + 85, y= self.y+60 - (15) * self.Scount, name = name)
 			source.setName(name)
 			source.setHost(self)
 			self.drain.append(source)
