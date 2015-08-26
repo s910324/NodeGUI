@@ -6,15 +6,13 @@ from   PysideGraph   import *
 class DiagramScene(QGraphicsScene):
 	def __init__(self, parent=None):
 		super(DiagramScene, self).__init__(parent)
-		self.lineColor = QColor('#202020')
 		self.drawBG()
 		self.JNodes = []
 
 	def drawBG(self):
-		res = 1920
-		for i in xrange(-res,res,50):
-			self.addLine(i,-res,i,res, QPen(self.lineColor))
-			self.addLine(-res,i,res,i, QPen(self.lineColor))
+		brush = QBrush(QColor('#202020'))
+		brush.setStyle(Qt.CrossPattern)
+		self.setBackgroundBrush(brush)
 
 	def runScript(self):
 		runSequence = []

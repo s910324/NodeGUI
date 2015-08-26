@@ -165,15 +165,20 @@ class JNode(QGraphicsItem):
 			plug.setHost(self)
 			self.jack.append(plug)
 			self.scene.addItem(plug)
+		if (self.Pcount - self.Scount > 1) and (self.Pcount > 2) :
+			self.SetHeight(self.GetHeight() + 15)
 
 	def addSource(self, count = 1, name = "None"):
 		for i in xrange(count):
 			self.Scount += 1
-			source = SourceNode(self.scene, self.lineCalc, self.lineDecorator, x= self.x + 85, y= self.y+60 - (15) * self.Scount, name = name)
+			source = SourceNode(self.scene, self.lineCalc, self.lineDecorator, x= self.x + 85, y= self.y+30 + (15) * self.Scount, name = name)
 			source.setName(name)
 			source.setHost(self)
 			self.drain.append(source)
 			self.scene.addItem(source)
+
+		if (self.Scount - self.Pcount >= 0 ) and (self.Scount > 1):
+			self.SetHeight(self.GetHeight() + 15)
 
 	def SetX(self,x):
 		self.prepareGeometryChange()

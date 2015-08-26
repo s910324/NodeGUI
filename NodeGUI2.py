@@ -18,7 +18,7 @@ class MainWindow(QMainWindow):
 		self.view  = QGraphicsView()
 		self.scene = DiagramScene()
 		
-		self.scene.setSceneRect(0,0,1920,1920)
+		self.scene.setSceneRect(0,0,800,800)
 		self.setCentralWidget(self.view)
 		#Select node connection and its decorator types
 		self.nc = CenterCalc()
@@ -41,8 +41,9 @@ class MainWindow(QMainWindow):
 		norm.setScript(self.Normalize)
 
 		norm2 = JackNode(self.scene, self.nc, self.cd,  x =400, y =200, name = 'normalize')
-		norm2.addPlug()		
-		norm2.addSource(name = '2234')
+		norm2.addPlug(name = 'in')		
+		norm2.addSource(name = 'out')
+
 		norm2.setScript(self.Normalize)
 
 		self.view.setScene(self.scene)
