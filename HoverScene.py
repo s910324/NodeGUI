@@ -23,6 +23,7 @@ class DiagramScene(QGraphicsScene):
 				runSequence.append(JNode)
 			else:
 				JNode.clear()
+			############^^this should be fixed, delete jacknode and still get output
 
 		for JNode in runSequence:
 			runSequence += JNode.client
@@ -43,4 +44,4 @@ class DiagramScene(QGraphicsScene):
 				
 		for unExecuted in self.JNodes:
 			if unExecuted not in runSequence:
-				unExecuted.setStatus(0)
+				unExecuted.setStatus(3)

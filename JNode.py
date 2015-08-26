@@ -127,6 +127,21 @@ class JNode(QGraphicsItem):
 	def clear(self):
 		self.output = TypeError
 
+	def selfDestory(self):
+		self.clear()
+		self.nameTag.selfDestory()
+		for plug in self.jack:
+			plug.selfDestory()
+
+		for source in self.drain:
+			source.selfDestory()
+
+		if self in self.scene.JNodes:
+			self.scene.JNodes.pop(self.scene.JNodes.index(self))
+			self.scene.removeItem(self)
+
+		del self
+
 	def addClient(self, clientJack):
 		if clientJack not in self.client:
 			clientJack.addHost(self)
@@ -227,6 +242,7 @@ class JNode(QGraphicsItem):
 			if w.lineRect is not None:
 				boundingRect = boundingRect.united(w.lineRect)
 		return boundingRect   
+
 	def hoverEnterEvent (self, event):
 		event.accept()	
 		self.temp_stat = self.status
@@ -249,6 +265,12 @@ class JNode(QGraphicsItem):
 				
 		self.ignore = False
 		if event.button() == Qt.RightButton:
+			self.menu = QMenu()
+			self.menu.addAction('[x] delete this Node', self.selfDestory)
+			self.menu.addAction('[+] add input', self.addPlug)
+			self.menu.popup(event.screenPos())
+			
+			# connect(menu, SIGNAL(triggered(QAction *)),object, SLOT(triggered(QAction *)))
 			self.resizeMode = False
 			
 

@@ -7,13 +7,14 @@ from   PySide.QtGui  import *
 class TNode(QGraphicsItem):
 	def __init__(self, scene, text, x, y, w, h):
 		QGraphicsItem.__init__(self)	
-		self.text    = text
-		self.scene   = scene
+		self.text       = text
+		self.scene      = scene
 		self.contentPos = QPoint(x,y)
 		self.setFlag(QGraphicsItem.ItemIsMovable)
 
 		self.w = w
 		self.h = h
+
 
  
 	def contentSceneRect(self):

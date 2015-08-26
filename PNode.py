@@ -78,7 +78,7 @@ class PNode(QGraphicsItem):
 		# self have connect, remove self from parent(sourceNode).child list
 		# remove self.JackNode from  host.JackNode
 		# and removeconnect(setParent as None).
-
+		self.host.clear()
 		if self.parent is not None and self in self.parent.child:
 			self_JackNode   = self.getHost()
 			parent_JackNode = self.parent.getHost()
@@ -89,6 +89,12 @@ class PNode(QGraphicsItem):
 			self_JackNode.removeHost(parent_JackNode)
 			self.setParent(None)
 
+	def selfDestory(self):
+		self.killConnect()
+		# self.nameTag.selfDestory()
+		self.host.jack.pop(self.host.jack.index(self))
+		self.scene.removeItem(self)
+		del self
 
 	def SetX(self,x):
 		self.prepareGeometryChange()

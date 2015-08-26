@@ -77,6 +77,21 @@ class SNode(QGraphicsItem):
 				self.child.append(node)
 				node.setParent(self)
 
+	def killConnect(self):
+		# self have connect, remove self from parent(sourceNode).child list
+		# remove self.JackNode from  host.JackNode
+		# and removeconnect(setParent as None).
+		for PlugNode in self.child:
+			print 'a'
+			PlugNode.killConnect()
+
+
+	def selfDestory(self):
+		# self.nameTag.selfDestory()
+		self.killConnect()
+		self.host.drain.pop(self.host.drain.index(self))
+		self.scene.removeItem(self)
+		del self
 
 		
 	def SetX(self,x):

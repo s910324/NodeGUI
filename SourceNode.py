@@ -9,6 +9,7 @@ class SourceNode(SNode):
 
 	def __init__(self, scene, lineCalc, lineDecorator, parent = None, img = QImage("./img/NodeRG.png"), x = 0, y = 0, w = 10, h = 10, name = None):
 		SNode.__init__(self, scene, lineCalc, lineDecorator, parent, x, y, w, h, name)    
+
 		self.Pen   = [QPen(QColor('#0A0A0A'), 1, Qt.SolidLine),  #normal  state
 					  QPen(QColor('#2A2A2A'), 1, Qt.SolidLine),  #hovered state
 					  QPen(QColor('#0AFA0A'), 1, Qt.DashLine),   #ready to connect
