@@ -3,9 +3,9 @@
 
 ### Introduction
 ------
-  Some NodeGUI code are forked from: [PysdeGraph](https://github.com/eccam/PySideGraph "PysdeGraph")!
-  NodeGUI is design to manipulate Data with Nodes-and-connections visually like Labview does.
-  This project is still under construction.
+  Some NodeGUI code are forked from: [PysdeGraph](https://github.com/eccam/PySideGraph "PysdeGraph")!  
+  NodeGUI is design to manipulate Data with Nodes-and-connections visually like Labview does.  
+  This project is still under construction.  
 
 
 ### required module
