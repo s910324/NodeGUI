@@ -20,6 +20,7 @@ class DiagramScene(QGraphicsScene):
 			# which node is not root node, which should initiallize it parameters
 			JNode.setStatus(0)
 			if JNode.getHost() == []:
+				JNode.setStatus(3)
 				runSequence.append(JNode)
 			else:
 				JNode.clear()

@@ -4,387 +4,600 @@
 		"selected_items":
 		[
 			[
-				"cl",
-				"clear	(function)"
-			],
-			[
-				"P",
-				"PlugNode	(class)"
-			],
-			[
-				"D",
-				"drain	(statement)"
-			],
-			[
 				"add",
-				"addPlug	(function)"
-			],
-			[
-				"setH",
-				"SetHeight	(function)"
-			],
-			[
-				"dr",
-				"drawBG	(function)"
-			],
-			[
-				"AligL",
-				"AlignLeft	(class)"
-			],
-			[
-				"nam",
-				"nameTag	(statement)"
-			],
-			[
-				"na",
-				"nameTag	(statement)"
-			],
-			[
-				"plo",
-				"plotWindow	(statement)"
-			],
-			[
-				"QSC",
-				"QScrollBar	(class)"
-			],
-			[
-				"Qp",
-				"QPen	(class)"
-			],
-			[
-				"Na",
-				"nameTag	(statement)"
-			],
-			[
-				"kill",
-				"killConnect"
-			],
-			[
-				"get",
-				"getClient	(function)"
-			],
-			[
-				"nde",
-				"node	(param)"
-			],
-			[
-				"h",
-				"host"
-			],
-			[
-				"setA",
-				"setAcceptHoverEvents	(function)"
-			],
-			[
-				"co",
-				"connectMode"
-			],
-			[
-				"r",
-				"runLev	(statement)"
-			],
-			[
-				"con",
-				"contentPos	(statement)"
-			],
-			[
-				"a",
-				"addObjAction	(statement)"
-			],
-			[
-				"toolba",
-				"toolbar	(statement)"
-			],
-			[
-				"QLine",
-				"QLineEdit	(class)"
-			],
-			[
-				"sma",
-				"smart_text	(function)"
-			],
-			[
-				"s",
-				"script"
-			],
-			[
-				"pa",
-				"parameters"
-			],
-			[
-				"client",
-				"clientOBJ"
-			],
-			[
-				"c",
-				"connect"
-			],
-			[
-				"pro",
-				"profileImag"
-			],
-			[
-				"n",
-				"nameArray"
-			],
-			[
-				"cr",
-				"crewWidget"
-			],
-			[
-				"Qli",
-				"QLineEdit"
-			],
-			[
-				"addC",
-				"addNewCrew"
-			],
-			[
-				"cli",
-				"clicked"
-			],
-			[
-				"name",
-				"nameEditor"
-			],
-			[
-				"QP",
-				"QPushButton"
-			],
-			[
-				"l",
-				"listWidget"
-			],
-			[
-				"p2",
-				"p2Index"
-			],
-			[
-				"p1i",
-				"p1Index"
-			],
-			[
-				"for",
-				"format"
-			],
-			[
-				"return",
-				"returnVal"
-			],
-			[
-				"e",
-				"exchangeArray"
-			],
-			[
-				"M",
-				"MainToolbar"
-			],
-			[
-				"hide",
-				"hideAllAction"
-			],
-			[
-				"hi",
-				"hidePB"
-			],
-			[
-				"val",
-				"val"
-			],
-			[
-				"p1",
-				"p1date"
-			],
-			[
-				"m",
-				"MainToolbar"
-			],
-			[
-				"de",
-				"destory"
-			],
-			[
-				"Clis",
-				"ClistWidgetItem"
-			],
-			[
-				"lis",
-				"listWidget"
+				"addItem	(function)"
 			],
 			[
 				"set",
-				"setFixedWidth"
+				"setWidth	(function)"
 			],
 			[
-				"list",
-				"listItem"
+				"dra",
+				"drawLine	(function)"
 			],
 			[
-				"qL",
-				"QListWidget"
+				"QCom",
+				"QComboBox	(class)"
+			],
+			[
+				"QStylec",
+				"QStyleOptionComboBox	(class)"
+			],
+			[
+				"line_v",
+				"line_val"
+			],
+			[
+				"setch",
+				"setChecked	(function)"
+			],
+			[
+				"view",
+				"viewBoxNum"
+			],
+			[
+				"N",
+				"NameError	(class)"
+			],
+			[
+				"num",
+				"viewNum"
+			],
+			[
+				"line_vi",
+				"line_viewNum"
+			],
+			[
+				"op",
+				"optionWindow"
+			],
+			[
+				"viewBox",
+				"viewBoxDict	(statement)"
+			],
+			[
+				"v",
+				"vListWidgetItem	(statement)"
+			],
+			[
+				"sets",
+				"setSizeHint"
+			],
+			[
+				"setfix",
+				"setFixedHeight	(function)"
+			],
+			[
+				"siz",
+				"sizeHint	(function)"
+			],
+			[
+				"setF",
+				"setFixedHeight	(function)"
+			],
+			[
+				"up",
+				"updateGeometry	(function)"
+			],
+			[
+				"vl",
+				"vListWidget	(statement)"
+			],
+			[
+				"setSi",
+				"setSizePolicy	(function)"
+			],
+			[
+				"update",
+				"updateGeometry	(function)"
+			],
+			[
+				"vli",
+				"vListWidgetItem	(statement)"
+			],
+			[
+				"viewbox",
+				"viewBoxList	(statement)"
+			],
+			[
+				"itemD",
+				"itemDcFocused	(statement)"
+			],
+			[
+				"st",
+				"style	(statement)"
 			],
 			[
 				"QLi",
-				"QListWidgetItem"
+				"QLinearGradient	(class)"
+			],
+			[
+				"line",
+				"lineVisible	(statement)"
+			],
+			[
+				"M",
+				"MLineListWidget	(class)"
+			],
+			[
+				"QRe",
+				"QRect	(class)"
+			],
+			[
+				"draw",
+				"drawImage	(function)"
+			],
+			[
+				"list",
+				"viewBoxListWidget"
+			],
+			[
+				"vi",
+				"viewBoxListWidget"
+			],
+			[
+				"de",
+				"Dense1Pattern	(class)"
+			],
+			[
+				"vL",
+				"vListWidgetItem	(statement)"
+			],
+			[
+				"setsty",
+				"setStyleSheet	(function)"
+			],
+			[
+				"fo",
+				"focus	(param)"
+			],
+			[
+				"spa",
+				"space2	(statement)"
+			],
+			[
+				"w",
+				"widget	(function)"
+			],
+			[
+				"setFix",
+				"setFixedHeight	(function)"
+			],
+			[
+				"setc",
+				"setContentsMargins	(function)"
+			],
+			[
+				"setm",
+				"setContentsMargins	(function)"
+			],
+			[
+				"hea",
+				"header_Color"
+			],
+			[
+				"Q",
+				"QHeader	(module)"
+			],
+			[
+				"setR",
+				"setRenderHint	(function)"
+			],
+			[
+				"De",
+				"Dense4Pattern	(class)"
+			],
+			[
+				"setB",
+				"setBrush	(function)"
+			],
+			[
+				"adds",
+				"addSpacing	(function)"
+			],
+			[
+				"res",
+				"resize	(function)"
 			],
 			[
 				"cal",
-				"calendar1"
+				"canclePB	(statement)"
 			],
 			[
-				"com",
-				"combo1"
+				"addS",
+				"addStretch	(function)"
 			],
 			[
-				"hb",
-				"hbox1"
+				"QChe",
+				"QCheckBox	(class)"
+			],
+			[
+				"Al",
+				"AlignHCenter	(class)"
+			],
+			[
+				"setup",
+				"setupLineUI	(function)"
+			],
+			[
+				"pos",
+				"pos1Label0	(statement)"
+			],
+			[
+				"QLine",
+				"QLineNumber	(class)"
+			],
+			[
+				"QCh",
+				"QCheckBox	(class)"
+			],
+			[
+				"se",
+				"setupList	(function)"
+			],
+			[
+				"la",
+				"layout	(statement)"
+			],
+			[
+				"name",
+				"nameLineE"
+			],
+			[
+				"setStyle",
+				"setStyleSheet	(function)"
+			],
+			[
+				"addL",
+				"addLine"
+			],
+			[
+				"ca",
+				"cancleOperation	(function)"
+			],
+			[
+				"cl",
+				"close	(function)"
+			],
+			[
+				"p",
+				"p1y	(statement)"
+			],
+			[
+				"ch",
+				"checkValue"
+			],
+			[
+				"va",
+				"checkValueValid"
+			],
+			[
+				"te",
+				"textChanged	(class)"
+			],
+			[
+				"po",
+				"point2	(statement)"
+			],
+			[
+				"che",
+				"checkValueValid	(function)"
+			],
+			[
+				"ali",
+				"AlignCenter	(class)"
+			],
+			[
+				"Qline",
+				"QLineEdit	(class)"
+			],
+			[
+				"seup",
+				"setUpApplyUI	(function)"
+			],
+			[
+				"h",
+				"hbox	(statement)"
+			],
+			[
+				"vbox",
+				"vbox1	(statement)"
+			],
+			[
+				"ma",
+				"MainWindow	(statement)"
+			],
+			[
+				"chec",
+				"checkBoxList	(statement)"
+			],
+			[
+				"rad",
+				"radio4	(statement)"
+			],
+			[
+				"gr",
+				"groupBox	(statement)"
+			],
+			[
+				"Dsn",
+				"Dense1Pattern	(class)"
+			],
+			[
+				"get",
+				"get_values	(function)"
+			],
+			[
+				"pad",
+				"pandas	(module)"
+			],
+			[
+				"daa",
+				"Data	(function)"
+			],
+			[
+				"viewb",
+				"viewBoxIDCounter	(statement)"
+			],
+			[
+				"linec",
+				"line_color"
 			],
 			[
 				"li",
-				"listItem"
+				"lineWidth	(statement)"
 			],
 			[
-				"col",
-				"columnCount"
+				"plotI",
+				"plotIDDict"
 			],
 			[
-				"ex",
-				"except"
+				"plot",
+				"plotIDDict	(statement)"
 			],
 			[
-				"en",
-				"enableButtons"
+				"das",
+				"DashDotLine	(class)"
 			],
 			[
-				"stop",
-				"stopSign"
+				"Das",
+				"DashDotLine	(class)"
 			],
 			[
-				"ty",
-				"typeThread"
+				"sym",
+				"symbol_penColor"
 			],
 			[
-				"hbo",
-				"hbox3"
+				"is",
+				"isVisible"
 			],
 			[
-				"threa",
-				"threadDone"
+				"pl",
+				"plotName	(param)"
+			],
+			[
+				"line_",
+				"line_name"
+			],
+			[
+				"nam",
+				"line_name"
+			],
+			[
+				"pen",
+				"penStyle"
+			],
+			[
+				"lineI",
+				"lineIDDict	(statement)"
+			],
+			[
+				"Qla",
+				"QLabel	(class)"
+			],
+			[
+				"cont",
+				"controlPanel	(statement)"
+			],
+			[
+				"fr",
+				"format	(function)"
+			],
+			[
+				"G",
+				"GraphicsItem	(class)"
 			],
 			[
 				"tab",
-				"tableLabel"
+				"tabWidget	(statement)"
 			],
 			[
-				"Hbox",
-				"Hbox1"
+				"setp",
+				"setPen	(function)"
 			],
 			[
-				"F",
-				"Father"
+				"setP",
+				"setpen	(function)"
 			],
 			[
-				"clust",
-				"clusterNum"
+				"setT",
+				"setTabPosition	(function)"
 			],
 			[
-				"app",
-				"append"
+				"QList",
+				"QListWidget	(class)"
 			],
 			[
-				"ax",
-				"axisAry"
+				"QV",
+				"QVBoxLayout	(class)"
 			],
 			[
-				"select",
-				"selectAry"
+				"QDia",
+				"QDialog	(class)"
 			],
 			[
-				"sele",
-				"selectAry"
+				"r",
+				"readlines	(function)"
+			],
+			[
+				"da",
+				"dataSet"
+			],
+			[
+				"color",
+				"colorMap	(statement)"
+			],
+			[
+				"QW",
+				"QWidget	(class)"
+			],
+			[
+				"a",
+				"add_axes	(function)"
+			],
+			[
+				"lab",
+				"labelList	(statement)"
+			],
+			[
+				"rmv",
+				"rmvCol"
+			],
+			[
+				"co",
+				"col_count	(statement)"
+			],
+			[
+				"header",
+				"headerLable	(statement)"
+			],
+			[
+				"for",
+				"format	(function)"
+			],
+			[
+				"Tu",
+				"True	(keyword)"
+			],
+			[
+				"lo",
+				"lock	(statement)"
+			],
+			[
+				"close",
+				"closeEvent"
+			],
+			[
+				"sc",
+				"scatter	(function)"
+			],
+			[
+				"rand",
+				"random	(statement)"
+			],
+			[
+				"rn",
+				"rank	(statement)"
+			],
+			[
+				"tae",
+				"target_str	(param)"
+			],
+			[
+				"ta",
+				"tabID	(statement)"
+			],
+			[
+				"su",
+				"subWindowList	(function)"
+			],
+			[
+				"tableha",
+				"TableHandle"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "NodeGUI2.py",
+			"file": "/home/rawr/github/Sloth/GraphEditor/EditorWindow.py",
 			"settings":
 			{
-				"buffer_size": 4125,
+				"buffer_size": 3395,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "HoverScene.py",
+			"file": "/home/rawr/github/Sloth/plotSubWin.py",
 			"settings":
 			{
-				"buffer_size": 1259,
+				"buffer_size": 17202,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/home/rawr/github/Sloth/GraphEditor/lineControlWidget.py",
+			"settings":
+			{
+				"buffer_size": 5931,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "JNode.py",
+			"file": "/home/rawr/github/Sloth/GraphEditor/QStyleComboBox.py",
 			"settings":
 			{
-				"buffer_size": 10006,
+				"buffer_size": 896,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "PlugNode.py",
+			"file": "/home/rawr/github/Sloth/GraphEditor/viewLineList.py",
 			"settings":
 			{
-				"buffer_size": 2070,
+				"buffer_size": 2874,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "SourceNode.py",
+			"file": "/home/rawr/github/Sloth/GraphEditor/viewBoxList.py",
 			"settings":
 			{
-				"buffer_size": 2001,
+				"buffer_size": 3782,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "SNode.py",
+			"file": "/home/rawr/github/Sloth/GraphEditor/MaterialDesignList/MLineListWidget.py",
 			"settings":
 			{
-				"buffer_size": 7787,
+				"buffer_size": 3149,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "PNode.py",
+			"file": "/home/rawr/github/Sloth/GraphEditor/MaterialDesignList/MViewBoxListWidget.py",
 			"settings":
 			{
-				"buffer_size": 6381,
+				"buffer_size": 1557,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "TNode.py",
+			"file": "/home/rawr/github/Sloth/graphOptions.py",
 			"settings":
 			{
-				"buffer_size": 824,
+				"buffer_size": 4665,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "TextNode.py",
+			"file": "/home/rawr/Desktop/asc.py",
 			"settings":
 			{
-				"buffer_size": 1310,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "JackNode.py",
-			"settings":
-			{
-				"buffer_size": 1830,
-				"line_ending": "Unix"
+				"buffer_size": 5822,
+				"line_ending": "Unix",
+				"name": "import sys"
 			}
 		}
 	],
@@ -427,10 +640,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 358.0,
-		"last_filter": "",
+		"height": 392.0,
+		"last_filter": "ins",
 		"selected_items":
 		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: re",
 				"Package Control: Remove Package"
@@ -489,138 +706,138 @@
 	},
 	"file_history":
 	[
-		"/home/rawr/github/NodeGUI/TextNode.py",
-		"/home/rawr/github/temp_shit/temp1.py",
-		"/home/rawr/github/NodeGUI/JNode.py",
-		"/home/rawr/github/NodeGUI/NodeGUI2.py",
-		"/home/rawr/Downloads/delme2.py",
-		"/home/rawr/github/NodeGUI/HoverScene.py",
-		"/home/rawr/github/NodeGUI/PNode.py",
-		"/home/rawr/github/NodeGUI/SNode.py",
-		"/home/rawr/github/NodeGUI/SourceNode.py",
-		"/home/rawr/github/NodeGUI/PlugNode.py",
-		"/home/rawr/github/NodeGUI/JackNode.py",
-		"/home/rawr/github/NodeGUI/plotSubWin.py",
-		"/home/rawr/github/Sloth/plotSubWin.py",
 		"/home/rawr/github/Sloth/NightlyBuild.py",
-		"/home/rawr/github/Sloth/NightlyBuild-0613-plot_cluster_fixed.py",
-		"/home/rawr/github/NodeGUI_MKII/NodeGUI2.py",
-		"/home/rawr/github/NodeGUI_MKII/plotSubWin.py",
-		"/home/rawr/github/NodeGUI_MKII/HoverScene.py",
-		"/home/rawr/github/NodeGUI_MKII/TextNode.py",
-		"/home/rawr/github/NodeGUI_MKII/PNode.py",
-		"/home/rawr/github/NodeGUI_MKII/SNode.py",
-		"/home/rawr/github/NodeGUI_MKII/JackNode.py",
-		"/home/rawr/github/NodeGUI_MKII/JNode.py",
-		"/home/rawr/github/NodeGUI_MKII/Ring.py",
+		"/home/rawr/github/Changer/Changer.py",
+		"/home/rawr/github/Sloth/GraphEditor/QLineNumber.py",
+		"/home/rawr/github/Sloth/GraphEditor/MaterialDesignList/__init__.py",
+		"/home/rawr/Desktop/aa.py",
+		"/home/rawr/github/Sloth/GraphEditor/viewLineList.py",
+		"/home/rawr/github/Sloth/GraphEditor/MaterialDesignList/MLineListWidget.py",
+		"/home/rawr/github/Sloth/GraphEditor/MaterialDesignList/MViewBoxListWidget.py",
+		"/home/rawr/github/Sloth/GraphEditor/viewBoxList.py",
+		"/home/rawr/github/Sloth/graphOptions.py",
+		"/home/rawr/github/Sloth/GraphEditor/viewBoxControlWidget.py",
+		"/home/rawr/github/Sloth/GraphEditor/EditorWindow.py",
+		"/home/rawr/github/Sloth/graphSelectorWindow.py",
+		"/home/rawr/github/Sloth/plotSubWin.py",
+		"/home/rawr/github/Sloth/SubWinList.py",
+		"/home/rawr/github/NodeGUI/JNode.py",
+		"/home/rawr/github/NodeGUI/JackNode.py",
+		"/home/rawr/github/NodeGUI/NodeGUI2.py",
+		"/home/rawr/github/NodeGUI/PlugNode.py",
+		"/home/rawr/github/NodeGUI/ImageNode.py",
+		"/home/rawr/github/Sloth/GraphEditor/untitled.py",
+		"/home/rawr/github/Sloth/GraphEditor/MaterialDesignList/viewBoxListWidget.py",
+		"/home/rawr/github/Sloth/GraphEditor/ MaterialDesignList.py",
+		"/home/rawr/github/Sloth/GraphEditor/SubWinList.py",
+		"/home/rawr/github/Sloth/GraphEditor/QSpacer.py",
+		"/home/rawr/github/Sloth/GraphEditor/QHeader.py",
+		"/home/rawr/github/Sloth/GraphEditor/QLefter.py",
+		"/home/rawr/github/Sloth/GraphEditor/QRighter.py",
+		"/home/rawr/github/Sloth/GraphEditor/lineControlWidget.py",
+		"/home/rawr/github/Sloth/GraphEditor/QHeader/QHeader.py",
 		"/home/rawr/github/NodeGUI/NodeGUI.py",
-		"/home/rawr/Downloads/delme.py",
-		"/home/rawr/Desktop/return dynamic array/import dll.py",
-		"/home/rawr/Downloads/theme chooser.py",
-		"/usr/share/X11/xorg.conf",
-		"/usr/share/X11/xorg.conf.d/50-marblemouse.conf",
-		"/usr/share/X11/50-marblemouse.conf",
-		"/home/rawr/Downloads/Ipython/costom.css",
-		"/home/rawr/alias.sh",
-		"/home/rawr/.bashrc",
-		"/Home/rawr/.bashrc",
-		"/home/rawr/Downloads/NWJS/package.json",
-		"/home/rawr/Untitled.slides.html",
-		"/home/rawr/Downloads/NodeGUI/PysideGraph.py",
-		"/home/rawr/Downloads/NodeGUI/TextNode.py",
-		"/home/rawr/Downloads/NodeGUI/PNode.py",
-		"/home/rawr/Downloads/NodeGUI/SNode.py",
-		"/home/rawr/Downloads/NodeGUI/SourceNode.py",
-		"/home/rawr/Downloads/NodeGUI/PlugNode.py",
-		"/home/rawr/Downloads/NodeGUI/ScriptNode.py",
-		"/home/rawr/Downloads/pyqtgraph-0.9.10/pyqtgraph/flowchart/Terminal.py",
-		"/home/rawr/Downloads/NodeGUI/test/mmm.py",
-		"/home/rawr/Downloads/NodeGUI/LineCalc.py",
-		"/home/rawr/Downloads/NodeGUI/test/sts.py",
-		"/home/rawr/Downloads/NodeGUI/LineDecorator.py",
-		"/home/rawr/Downloads/NodeGUI/Line.py",
-		"/home/rawr/Downloads/NodeGUI/JNode.py",
-		"/home/rawr/Downloads/NodeGUI/Node.py",
-		"/home/rawr/Downloads/NodeGUI/JackNode.py",
-		"/home/rawr/Downloads/NodeGUI/NodeGUI.py",
-		"/home/rawr/Downloads/no/change.py",
-		"/home/rawr/Downloads/NodeGUI/DrainNode.pyc",
-		"/home/rawr/Downloads/NodeGUI/Node.pyc",
-		"/home/rawr/Downloads/d3js/index.html",
-		"/home/rawr/Downloads/d3js/app.js",
-		"/home/rawr/Downloads/d3js/app.css",
-		"/home/rawr/Downloads/Using Questionnaire Survey to find out the relatio",
-		"/home/rawr/Downloads/graphview.py",
-		"/home/rawr/.config/sublime-text-3/Installed Packages/InputHelper.sublime-package_FILES/lib/linux_text_input_gui.py",
-		"/home/rawr/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
-		"/home/rawr/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
-		"/home/rawr/.config/sublime-text-3/Packages/User/SublimePython.sublime-settings",
+		"/home/rawr/Downloads/untitled.py",
+		"/home/rawr/github/Sloth/GraphEditor/Header.py",
+		"/home/rawr/Downloads/1318211-41be6b5f8f3bd6dc148d56efa60f3178671c5ef2/ui_widget.py",
+		"/home/rawr/Downloads/1318211-41be6b5f8f3bd6dc148d56efa60f3178671c5ef2/widget.py",
+		"/home/rawr/github/Sloth/GraphEditor/viewLineListWidget.py",
+		"/home/rawr/github/Sloth/GraphEditor/viewBoxListWidget.py",
+		"/home/rawr/github/Sloth/GraphEditor/ viewLineListWidget.py",
+		"/home/rawr/github/temp_shit/temp1.py",
+		"/home/rawr/github/Changer/ListEditor.py",
+		"/home/rawr/github/Sloth/GraphEditor/viewBoxControlWidget .py",
+		"/home/rawr/github/Sloth/graphSelectorListEditor.py",
+		"/home/rawr/github/Sloth/graphEditorWindow.py",
+		"/home/rawr/github/Sloth/README.md",
+		"/home/rawr/github/nodeSHit/rq.js",
+		"/home/rawr/github/temp_shit/json.json",
+		"/home/rawr/github/temp_shit/untitled.py",
+		"/home/rawr/github/temp_shit/del.py",
+		"/home/rawr/Downloads/toyplot.csv",
+		"/home/rawr/Downloads/iris.csv",
 		"/home/rawr/.config/sublime-text-3/Packages/SublimePythonIDE/SublimePython.sublime-settings",
-		"/home/rawr/.config/sublime-text-3/Packages/Python Breakpoints/PythonBreakpoints.sublime-settings",
-		"/home/rawr/.config/sublime-text-3/Packages/User/PythonBreakpoints.sublime-settings",
-		"/home/rawr/.config/sublime-text-3/Packages/PySide/README.markdown",
-		"/home/rawr/.config/sublime-text-3/Packages/User/SideBarGit.sublime-settings",
-		"/home/rawr/.config/sublime-text-3/Packages/SideBarGit/SideBarGit.sublime-settings",
-		"/home/rawr/Downloads/nodeWEBKIT/package.json",
-		"/home/rawr/Downloads/nodeWEBKIT/index.html",
-		"/home/rawr/Downloads/line/pyline.py",
-		"/home/rawr/Downloads/no/style.qss",
-		"/home/rawr/Downloads/no/untitled.py",
-		"/home/rawr/Downloads/NodeGUI/ParameterNode.py",
-		"/home/rawr/Downloads/NodeGUI/ImageNode.py",
-		"/home/rawr/Downloads/NodeGUI/__init__.py",
-		"/home/rawr/Downloads/NodeGUI.py",
-		"/home/rawr/Downloads/line/lineGUI.py",
-		"/home/rawr/Downloads/z.py",
-		"/home/rawr/Downloads/Sloth/NightlyBuild.py",
-		"/home/rawr/Downloads/WSpre/wsPRE2.py",
-		"/home/rawr/Downloads/Sloth/NightlyBuild-0613-plot_cluster_fixed.py",
-		"/home/rawr/github/Sloth/pandasOpenfile.py",
-		"/home/rawr/github/Sloth/QtVariant.py",
-		"/home/rawr/.local/share/Trash/files/symtic.py",
-		"/home/rawr/.local/share/Trash/files/行列式 (1).py",
-		"/home/rawr/ProgramFiles/system_cycles_material_text_node.py",
-		"/home/rawr/Downloads/graph.py",
-		"/home/rawr/Downloads/linecc.py",
-		"/home/rawr/Downloads/22.py",
-		"/home/rawr/Downloads/stacktracker-master/StackTracker.py",
-		"/home/rawr/Downloads/example.cpp",
-		"/home/rawr/Downloads/systray_rc.py",
-		"/home/rawr/Downloads/example",
-		"/home/rawr/Downloads/array_def.py",
-		"/home/rawr/Downloads/t.py",
-		"/home/rawr/Downloads/ge.py",
-		"/home/rawr/Downloads/autopy exp.py",
-		"/home/rawr/Downloads/hw.java",
-		"/home/rawr/Downloads/h.cpp",
-		"/home/rawr/Downloads/HelloJavaFX.java",
-		"/home/rawr/Downloads/HelloWorld.java",
-		"/home/rawr/Downloads/HelloWorld2.class",
-		"/home/rawr/Downloads/HelloWorld2.java",
+		"/home/rawr/Downloads/eagle-lin64-7.4.0.run",
+		"/home/rawr/Downloads/SolidWorks 2013 SP3.0 [32 Bits & 64 Bits][MULTi][WwW.LoKoTorrents.CoM]/SolidWorks 2013 SP3.0 [32 Bits & 64 Bits][MULTi][WwW.LoKoTorrents.CoM]/Instrucciones.txt",
+		"/media/rawr/UUI/Uni-USB-Installer-Readme.txt",
+		"/media/rawr/IRM_CCSA_X64FRE_EN-US_DV5/autorun.inf",
+		"/home/rawr/.cxoffice/setup/dosdevices/c:/users/crossover/Temp/Other Application.log",
+		"/home/rawr/github/temp_shit/flaskShit.py",
+		"/home/rawr/github/Heroku-master/FlaskWeb/test.py",
+		"/home/rawr/ProgramFiles/node_js_lib/app/data/node_modules/appjs-linux-x64/index.js",
+		"/home/rawr/github/nodeSHit/gg.js",
+		"/home/rawr/ProgramFiles/node_js_lib/app/data/app.js",
+		"/home/rawr/ProgramFiles/node_js_lib/node-five-master/test/canvas.js",
+		"/home/rawr/ProgramFiles/node_js_lib/node-qt-master/examples/helloworld.js",
+		"/home/rawr/ProgramFiles/node_js_lib/node-qt-master/examples/sound.js",
+		"/home/rawr/ProgramFiles/node_js_lib/node-qt-master/examples/painter.js",
+		"/home/rawr/ProgramFiles/node_js_lib/node-five-master/demos/02-writer.js",
+		"/home/rawr/ProgramFiles/node_js_lib/node-five-master/demos/01-painter.js",
+		"/home/rawr/ProgramFiles/node_js_lib/node-five-master/demos/00-helloworld.js",
+		"/home/rawr/github/temp_shit/Pyqtgraph_lines.py",
+		"/home/rawr/github/Sloth/expTableWidget.py",
+		"/home/rawr/github/temp_shit/ListEditor.py",
+		"/home/rawr/github/temp_shit/MPLD_TEXT.py",
+		"/home/rawr/github/temp_shit/mplPlotSubWin.py",
+		"/home/rawr/github/temp_shit/MPLD_TEXT2.py",
+		"/home/rawr/github/temp_shit/mm.py",
+		"/home/rawr/github/temp_shit/mmdelme.py",
+		"/home/rawr/github/temp_shit/zxczxc.py",
+		"/home/rawr/github/temp_shit/pyg.py",
+		"/home/rawr/github/Sloth/savedData.pkl",
+		"/home/rawr/github/Sloth/dataset.txt",
+		"/home/rawr/github/Sloth/expTableWindow.py",
+		"/home/rawr/github/Sloth/experimental table widget.py",
+		"/home/rawr/github/Sloth/mplPlotSubWin.py",
+		"/home/rawr/github/Sloth/wbSubWin.py",
+		"/home/rawr/github/Sloth/MPLD_TEXT2.py",
+		"/home/rawr/github/Sloth/MPLD_TEXT.py",
+		"/home/rawr/Downloads/mpld3_demo.ipynb",
+		"/home/rawr/Downloads/150ss.csv",
+		"/home/rawr/Downloads/150.moke",
+		"/home/rawr/github/temp_shit/toyside.py",
+		"/home/rawr/.cache/.fr-9oARI8/strd_nist_fit.py",
+		"/home/rawr/Downloads/smartgit/readme-linux.txt",
+		"/home/rawr/github/temp_shit/HelloWorld.java",
+		"/home/rawr/Downloads/refine-python-master/refine.py",
+		"/home/rawr/Downloads/refine-python-master/test.py",
 		"/etc/profile",
-		"/home/rawr/Downloads/WSpre/style.qss",
-		"/home/rawr/Downloads/123.c",
-		"/home/rawr/Downloads/WSpre/t.py",
-		"/home/rawr/Downloads/WSpre/wsPRE.py",
-		"/home/rawr/.atom/snippets.cson",
-		"/home/rawr/.config/sublime-text-3/Packages/Javatar/README.md",
-		"/home/rawr/.config/sublime-text-3/Packages/Javatar/Developers/Proto.javatar-packages",
-		"/home/rawr/.config/sublime-text-3/Packages/Javatar/Javatar.sublime-settings",
-		"/home/rawr/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
-		"/home/rawr/Downloads/HelloWorld.jar",
-		"/home/rawr/Downloads/schedule 20150710/wsGUI2.py",
-		"/home/rawr/Downloads/workschedule.py",
-		"/home/rawr/Downloads/schedule/wsGUI.py",
-		"/home/rawr/Downloads/tktk.py",
-		"/home/rawr/Downloads/行列式.py",
-		"/home/rawr/Downloads/Sloth/wssheet.py",
-		"/home/rawr/Downloads/PySideGraph-master/test.py",
-		"/home/rawr/Downloads/行列式 (1).py",
-		"/home/rawr/Downloads/PicGetUltimateDLV - Copy.py"
+		"/ec/profile",
+		"/home/rawr/.bash_profile",
+		"/home/rawr/ProgramFiles/google-refine-2.5/README.txt",
+		"/home/rawr/ProgramFiles/google-refine-2.5/refine",
+		"/home/rawr/github/Sloth (2)/NightlyBuild.py",
+		"/home/rawr/Downloads/matplotpp/README",
+		"/home/rawr/Downloads/matplotpp/Makefile",
+		"/home/rawr/Downloads/matplotpp/examples/Makefile",
+		"/home/rawr/github/temp_shit/damndict.py",
+		"/home/rawr/Google Drive/BOOKS/python/BuildingMachineLearningSystemsWithPython-master/ch02/figure2.py",
+		"/home/rawr/github/temp_shit/findme.py",
+		"/home/rawr/ProgramFiles/Orange-2.7.8/Orange/OrangeCanvas/main.py",
+		"/home/rawr/ProgramFiles/Orange-2.7.8/Orange/core.py",
+		"/home/rawr/Downloads/iris.data",
+		"/home/rawr/Downloads/WSpre/wsPRE2.py",
+		"/home/rawr/Downloads/delme.py",
+		"/home/rawr/Downloads/delme2.py",
+		"/home/rawr/Downloads/plot_cv_predict.py",
+		"/home/rawr/Downloads/g.py",
+		"/home/rawr/Downloads/theme chooser.py",
+		"/home/rawr/ProgramFiles/Orange-2.7.8/setup.py",
+		"/home/rawr/ProgramFiles/Orange-2.7.8/README.txt",
+		"/home/rawr/ProgramFiles/Orange-2.7.8/setup.cfg",
+		"/home/rawr/Downloads/findme.py",
+		"/home/rawr/ProgramFiles/PointDownload-develop/README.md",
+		"/home/rawr/.bash_aliases",
+		"/home/rawr/.bashrc",
+		"/home/rawr/alias.sh",
+		"/home/rawr/Google Drive/BOOKS/python/BuildingMachineLearningSystemsWithPython-master/ch02/README.rst",
+		"/home/rawr/Google Drive/BOOKS/python/BuildingMachineLearningSystemsWithPython-master/ch02/heldout.py",
+		"/home/rawr/Google Drive/BOOKS/python/BuildingMachineLearningSystemsWithPython-master/ch02/figure4_5_sklearn.py",
+		"/home/rawr/Google Drive/BOOKS/python/BuildingMachineLearningSystemsWithPython-master/ch02/load.py"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -634,134 +851,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"additem",
-			"clear",
-			"leftCol",
-			"No active/valid workbook for data plotting.",
-			"plot",
-			"qtplt",
-			"QtC",
-			"qtplt",
-			"setStatus",
-			"status",
-			"ring",
-			"anti",
-			"size",
-			"offset",
-			"lineRect",
-			"name",
-			"???",
-			"client",
-			"self.client",
-			"kill",
-			"client",
-			"Client",
-			"client",
-			"killChild",
+			"setPanelVal",
 			"print",
-			".x()",
-			"\n        ",
-			"Drag",
-			"Dr",
-			"Dro",
-			"Drop",
-			"drop",
-			"coursor",
-			"print",
-			"drawLine",
-			"event",
-			"paintEv",
-			"paintEvent",
-			"draw",
-			"painter",
-			"drawLine",
-			"painter",
-			"self.child",
-			"for plug in self.jack:",
-			"update",
-			"mouse",
-			"self.child",
-			"child",
-			"offset",
-			"self",
-			"alt+space",
-			"+space",
-			"space",
-			"Dstyle",
-			"nc",
-			"addNewFriend",
-			"friendObj",
-			"addNewFriend",
-			"friendObj",
-			"contactCount",
-			"list",
-			"tree",
-			"255",
-			"QCal",
-			";\n",
-			"121212",
-			"QCOM",
-			"QCalendar",
-			"cale",
-			"53a83E",
-			"Qlabel",
-			"090909",
-			"222222",
-			"888888",
-			"333333",
-			"53A83E",
-			"QListView",
-			"QList",
-			"    ",
-			"returnVal",
-			"ncombobox",
-			"MainToolbar",
+			"addLine",
+			"addPlotArea",
+			"insertPlot",
+			"addPlotHolder",
 			"connect",
-			"connected",
-			"    ",
-			"self.myQListWidget",
-			"checkTableValidation",
-			"sorted",
-			"sorted()",
-			"3A3939",
-			"1F450C",
-			"#4A4949",
-			"444",
-			"#444",
-			"#8DFF70",
-			"#3D8ec9",
-			"#78879b",
-			"Icon",
-			"icon",
-			"ToolTip",
-			"information",
-			"    ",
-			"totray",
-			"state",
-			"    ",
-			"error",
-			"    ",
-			"MainW",
-			"    ",
-			"self.getWebThread",
-			"subTreeItem",
-			"AddWinTreeItem",
-			"self.container",
-			"TreeView",
-			" self.projDockWidget",
-			"showErr",
-			"self.ashowErr",
-			"AddWinTreeItem",
-			"self.showErr",
-			"self.showMSG",
-			"showgg",
-			"showMSG",
-			"row",
-			"QLable",
-			"Qlable",
-			"setx",
-			"smart",
-			"Autosuspend for"
+			"print ",
+			"dic",
+			"dict",
+			"self.option",
+			"goption",
+			"show",
+			"61",
+			"setFixed",
+			"Fix",
+			"sizeHint",
+			"addLine",
+			"plotIDDict",
+			"connect",
+			"itemDcFocused",
+			"spreadWay",
+			"boxLay",
+			"print",
+			"preview",
+			"graphSelector",
+			"addLine",
+			" addLine",
+			"width",
+			"bord",
+			"AxisItem",
+			"utoRange",
+			"AutoRange",
+			"Range",
+			"XRange",
+			"Scale",
+			"axis",
+			"Range",
+			"center",
+			"xRange",
+			"setXRange",
+			"x",
+			"Range",
+			"XRange",
+			"key",
+			"Background",
+			"Enable",
+			"Disa",
+			"get",
+			"Auto",
+			"self.plotIDCounter",
+			"addPlotHolder",
+			"plotIDDict",
+			"viewBox",
+			"viewBoxIDCounter",
+			"viewBox",
+			"addPlotArea",
+			"', '",
+			"set",
+			"Config",
+			"setConfigOption",
+			"backg",
+			"style",
+			"stle",
+			"col",
+			"set",
+			"', '",
+			"set",
+			"color",
+			"vis",
+			"alph",
+			"set",
+			"enable",
+			"', '",
+			"fini",
+			"200, 200, 200, 255",
+			"(200, 200, 200, 255)",
+			"'a",
+			"ine_val",
+			"print ",
+			"addItem",
+			"insertPlot",
+			"addPlotHolder",
+			"self.vb",
+			"addPlotArea",
+			"self.w",
+			"plotLineHolder",
+			"self.plotIDCounter",
+			"plotCounter",
+			"addLineHolder",
+			"sym",
+			"set",
+			"alpha",
+			"Alpha",
+			"', '",
+			"255",
+			"parent.",
+			"brush",
+			"paint",
+			"', '",
+			"pen",
+			"visi",
+			"', '",
+			"line",
+			"sym",
+			"pen",
+			"colo",
+			"pen",
+			"color",
+			"visi",
+			"', ",
+			"doublec",
+			"getLine",
+			"getLineA",
+			"addPlotItem",
+			"AddWinListItem",
+			"self.option",
+			"gOption",
+			"graphOptions",
+			"ClistWidgetItem",
+			"lambda",
+			"connect",
+			"plotLineHolder",
+			"globalVal",
+			"tw",
+			"qtplt",
+			"colCount",
+			"oFile"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -769,6 +986,17 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\n",
+			"plotArea",
+			"', '\n",
+			"self.",
+			"\n",
+			"', \n",
+			"plotListItem",
+			"",
+			"self.subWinDict",
+			"AddWinListItem",
+			"subWinList",
 			"killConnect",
 			"plug",
 			"275",
@@ -817,48 +1045,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "NodeGUI2.py",
+					"file": "/home/rawr/github/Sloth/GraphEditor/EditorWindow.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4125,
+						"buffer_size": 3395,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11,
-								11
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 138.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "HoverScene.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1259,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								681,
-								681
+								1891,
+								1891
 							]
 						],
 						"settings":
@@ -867,7 +1066,36 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 138.0,
+						"translation.y": 1342.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/rawr/github/Sloth/plotSubWin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								17202
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 11109.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -875,19 +1103,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "JNode.py",
+					"file": "/home/rawr/github/Sloth/GraphEditor/lineControlWidget.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10006,
+						"buffer_size": 5931,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3129,
-								3129
+								5227,
+								5227
 							]
 						],
 						"settings":
@@ -896,201 +1124,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2884.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "PlugNode.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2070,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								457,
-								457
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "SourceNode.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2001,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								432,
-								432
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "SNode.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7787,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2271,
-								2271
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1803.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "PNode.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6381,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2154,
-								2154
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1648.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "TNode.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 824,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								416,
-								416
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 69.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "TextNode.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1310,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1078,
-								1078
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 483.0,
+						"translation.y": 77.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "JackNode.py",
+					"buffer": 3,
+					"file": "/home/rawr/github/Sloth/GraphEditor/QStyleComboBox.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1830,
+						"buffer_size": 896,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								411,
-								411
+								807,
+								807
 							]
 						],
 						"settings":
@@ -1099,10 +1153,192 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 173.0,
+						"translation.y": 697.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/rawr/github/Sloth/GraphEditor/viewLineList.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2435,
+								2435
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1473.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/rawr/github/Sloth/GraphEditor/viewBoxList.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3597,
+								3597
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2483.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/rawr/github/Sloth/GraphEditor/MaterialDesignList/MLineListWidget.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								713,
+								713
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 968.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/rawr/github/Sloth/GraphEditor/MaterialDesignList/MViewBoxListWidget.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1250,
+								1250
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1144.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/rawr/github/Sloth/graphOptions.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2836,
+								2836
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"file": "/home/rawr/Desktop/asc.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5822,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2177,
+								2177
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import sys",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1297.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1110,7 +1346,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -1125,11 +1361,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.937774524159,
 			1.0
 		],
 		"rows":
@@ -1141,7 +1384,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 444.0
+		"height": 205.0
 	},
 	"output.find_results":
 	{
@@ -1151,7 +1394,7 @@
 	"project": "nodeGUI.sublime-project",
 	"replace":
 	{
-		"height": 60.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1185,7 +1428,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": false,

@@ -43,8 +43,11 @@ class MainWindow(QMainWindow):
 		norm2 = JackNode(self.scene, self.nc, self.cd,  x =400, y =200, name = 'normalize')
 		norm2.addPlug(name = 'in')		
 		norm2.addSource(name = 'out')
-
 		norm2.setScript(self.Normalize)
+
+		# norm3 = JackNode(self.scene, self.nc, self.cd,  x =400, y =200, name = 'interger')	
+		# norm3.addSource( name = 'QString')
+		# norm3.addSource(name = 'QSpin')
 
 		self.view.setScene(self.scene)
 		self.view.show()

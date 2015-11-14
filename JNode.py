@@ -17,6 +17,7 @@ class JNode(QGraphicsItem):
 		
 		self.Pcount         = 0
 		self.Scount         = 0
+		self.Swidgetcount   = 0
 		self.scene          = scene
 		self.lineCalc       = lineCalc
 		self.lineDecorator  = lineDecorator
@@ -139,7 +140,7 @@ class JNode(QGraphicsItem):
 		if self in self.scene.JNodes:
 			self.scene.JNodes.pop(self.scene.JNodes.index(self))
 			self.scene.removeItem(self)
-
+		
 		del self
 
 	def addClient(self, clientJack):
@@ -185,15 +186,38 @@ class JNode(QGraphicsItem):
 
 	def addSource(self, count = 1, name = "None"):
 		for i in xrange(count):
-			self.Scount += 1
-			source = SourceNode(self.scene, self.lineCalc, self.lineDecorator, x= self.x + 85, y= self.y+30 + (15) * self.Scount, name = name)
-			source.setName(name)
+
+			try:
+				self.Swidgetcount += 1
+				widget = self.f(name)
+				prox   = QGraphicsProxyWidget() 
+				source = SourceNode(self.scene, self.lineCalc, self.lineDecorator, x= self.x + 85, y= self.y + 12 + (30) * self.Swidgetcount, name = name)
+				source.setName(None)
+				prox.setWidget(widget)
+				self.scene.addItem(prox)
+
+				widget.setGeometry      (self.x + 5, self.y + 4 + (30) * self.Swidgetcount,75,24)
+				prox.contentPos = QPoint(self.x + 5, self.y + 4 + (30) * self.Swidgetcount)
+				self.parts.append(prox)
+
+			except KeyError:	
+				self.Scount += 1
+				source = SourceNode(self.scene, self.lineCalc, self.lineDecorator, x= self.x + 85, y= self.y+30 + (15) * self.Scount, name = name)
+				source.setName(name)
+
 			source.setHost(self)
 			self.drain.append(source)
 			self.scene.addItem(source)
 
-		if (self.Scount - self.Pcount >= 0 ) and (self.Scount > 1):
-			self.SetHeight(self.GetHeight() + 15)
+		if ((self.Scount - self.Pcount >= 0 ) and (self.Scount > 1)) or self.Swidgetcount > 1:
+			self.SetHeight(self.GetHeight() + 15  + (self.Swidgetcount-1) * 15)
+
+
+	def f(self,x):
+		return {
+			'QSpin'  : QSpinBox(),
+			'QString': QLineEdit(),
+		}[x]
 
 	def SetX(self,x):
 		self.prepareGeometryChange()
@@ -285,8 +309,12 @@ class JNode(QGraphicsItem):
 				source.offset = event.scenePos() - source.contentPos	
 			
 			for part in self.parts:
-				part.moveMode = True  
-				part.offset = event.scenePos() - part.contentPos
+				if type(part) is not QGraphicsProxyWidget:
+					part.moveMode = True  
+					part.offset = event.scenePos() - part.contentPos
+				else:
+					part.offset = event.scenePos() - part.contentPos
+					
 
 
 	def mouseReleaseEvent(self, event):
@@ -336,11 +364,19 @@ class JNode(QGraphicsItem):
 				source.update()
 
 			for part in self.parts:
-				part.prepareGeometryChange()
-				p = event.scenePos() - part.offset
-				part.contentPos = p
-				part.update()
-
+				if type(part) is not QGraphicsProxyWidget:
+					part.prepareGeometryChange()
+					p = event.scenePos() - part.offset
+					part.contentPos = p
+					part.update()
+				else:
+					part.prepareGeometryChange()
+					p = event.scenePos() - part.offset
+					part.contentPos = p
+					# part.offset = event.scenePos() - part.contentPos
+					part.setPos(event.scenePos().x() -part.offset.x(), event.scenePos().y() -part.offset.y())
+					part.update()
+					
 	def drawRect(self, painter, rect):
 		painter.setPen(QPen(Qt.black, 1, Qt.SolidLine, Qt.RoundCap, Qt.RoundJoin))   
 

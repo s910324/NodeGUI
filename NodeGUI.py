@@ -25,8 +25,8 @@ class MainWindow(QMainWindow):
 		self.scene.addItem(root)
 
 		#create graph nodes
-		a = TextNode(self.nc, self.cd, root, "node", "Node" , 500, 340, 200, 30)
-		root.addChild( a)
+		# a = TextNode(self.nc, self.cd, root, "node", "Node" , 500, 340, 200, 30)
+		# root.addChild( a)
 		scn = ScriptNode(self.nc, self.cd, root, "node", "Node" , 500, 340, 200, 30)
 
 		scn.changeScript(self.a, ['2234'])
